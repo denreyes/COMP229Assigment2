@@ -18,7 +18,7 @@ app.listen(PORT, () => {
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://dreyes18:Newy0rkcity!@dressstore.omjewvf.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://dreyes18:Newy0rkcity!@dressstore.omjewvf.mongodb.net/DressStore?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
