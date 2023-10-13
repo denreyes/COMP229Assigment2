@@ -24,5 +24,7 @@ mongoose.connect('mongodb+srv://dreyes18:Newy0rkcity!@dressstore.omjewvf.mongodb
 });
 
 const productRoutes = require('./routes/productRoutes');
+const categoriesRoutes = require('./routes/categoriesRoutes');
 
 app.use(productRoutes);
+app.use(categoriesRoutes);
